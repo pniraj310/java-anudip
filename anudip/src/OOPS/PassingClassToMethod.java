@@ -1,0 +1,31 @@
+package OOPS;
+
+public class PassingClassToMethod {
+    public static class Car{
+        int seats;
+        String name;
+        double length;
+        String type;
+        int torque;
+        public void print(){
+            System.out.println(seats+""+name+""+length+""+type+""+torque);
+        }
+
+    }
+    public static void main(String[] args) {
+       Car c = new Car();
+       c.length = 3.99;
+       c.name = "kia sonet";
+       c.seats = 5;
+       c.torque = 178;
+       c.type = "SUV";
+
+
+       change(c);
+
+        System.out.println(c.seats);
+    }
+    private static void change(Car x){
+        x.seats = 4;
+    }
+}

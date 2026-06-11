@@ -1,0 +1,19 @@
+Polymorphism is an OOP concept where one entity takes multiple forms. In Java it is achieved through method overloading (compile time) and method overriding (runtime).
+
+Polymorphism means "one thing, many forms". Same action performed differently by different objects.
+
+Polymorphism
+│
+├── Compile Time (Static)
+│   └── Method Overloading
+│       → Same class
+│       → Same name
+│       → Different parameters
+│       → Decided at compile time
+│
+└── Runtime (Dynamic)
+    └── Method Overriding
+        → Parent-Child class
+        → Same name
+        → Same parameters
+        → Decided at runtime
